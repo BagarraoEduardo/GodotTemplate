@@ -1,0 +1,43 @@
+# Godot-specific ignores
+.godot/
+.import/
+.mono/
+# Uncomment below if your export_presets.cfg contains sensitive data (e.g., encryption keys)
+# export_presets.cfg
+
+# .NET build outputs
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+
+# NuGet packages
+.nuget/
+packages/
+*.nupkg
+
+# IDE and Editor files
+.vs/
+.vscode/
+.idea/
+*.csproj.user
+*.userprefs
+*.suo
+*.sln
+
+# OS generated files
+.DS_Store
+Desktop.ini
+Thumbs.db
+*.swp
+*.swo
+~$*
+
+# Godot temporary files
+*.tmp.*
+*.blend1
+*.blend2

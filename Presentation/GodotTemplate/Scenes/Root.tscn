@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfils8ylk5rja"]
+
+[ext_resource type="Script" path="res://Scripts/Root.cs" id="1_ssrsa"]
+
+[node name="Root" type="Node"]
+script = ExtResource("1_ssrsa")

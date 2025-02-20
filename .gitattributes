@@ -1,0 +1,45 @@
+# Git LFS tracked file types (large assets)
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+
+# Audio formats
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+
+# Fonts and vector graphics
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+
+# Binaries and exports
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.pck filter=lfs diff=lfs merge=lfs -text
+
+# Text files with proper line endings
+*.cs text=auto
+*.tscn text=auto
+*.tres text=auto
+project.godot text=auto
+*.csproj text=auto
+*.sln text=auto
+
+# Export presets (optional)
+# export_presets.cfg text=auto
+
+# Platform-specific libraries (GDExtension)
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+
+# Source asset formats (uncomment if used)
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.kra filter=lfs diff=lfs merge=lfs -text
+# *.blend filter=lfs diff=lfs merge=lfs -text
+
+# Force Windows/Linux line endings
+*.sh text eol=lf
+*.bat text eol=crlf
